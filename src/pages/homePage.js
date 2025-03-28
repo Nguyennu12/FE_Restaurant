@@ -11,7 +11,7 @@ const HomePage = () => {
         top: 0,
         left: 0,
         height: "100%",
-        backgroundImage: `url("https://ipos.vn/wp-content/uploads/2019/08/thiet-ke-nha-hang-5.jpg")`,
+        backgroundImage: `url("https://images.pexels.com/photos/265947/pexels-photo-265947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         filter: "brightness(50%)",

@@ -29,10 +29,10 @@ const ChatbaseWidget = () => {
       // Hàm tải script Chatbase
       const onLoad = () => {
         // Kiểm tra xem script đã tồn tại chưa để tránh thêm trùng
-        if (!document.getElementById("bSRbSU7jo-ZgsxkSxKOn6")) {
+        if (!document.getElementById("hTMv0r9uAJQ6PIcIcJyn0")) {
           const script = document.createElement("script");
           script.src = "https://www.chatbase.co/embed.min.js";
-          script.id = "bSRbSU7jo-ZgsxkSxKOn6";
+          script.id = "hTMv0r9uAJQ6PIcIcJyn0";
           script.setAttribute("domain", "www.chatbase.co");
           // Xử lý lỗi tải script (tùy chọn)
           script.onerror = () =>

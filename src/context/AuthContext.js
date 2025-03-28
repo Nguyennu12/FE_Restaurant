@@ -8,13 +8,6 @@ export const AuthProvider = ({ children }) => {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);
 
-  // useEffect(() => {
-  //   const storedToken = localStorage.getItem("authToken");
-  //   if (!storedToken) {
-  //     navigate("/login");
-  //   }
-  // }, [navigate]);
-
   const signup = async (FullName, Email, Password, roleId) => {
     try {
       const { data } = await axios.post(

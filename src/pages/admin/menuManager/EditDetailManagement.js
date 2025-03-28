@@ -125,8 +125,9 @@ const EditDetailManagement = ({ selectedProduct, onClose, onUpdate }) => {
                 <h4>{selectedProduct.name}</h4>
                 <p>
                   <strong>Giá:</strong>{" "}
-                  {selectedProduct.price.toLocaleString("vi-VN")} VND
+                  {selectedProduct.price.toLocaleString("en-US", { style: "currency", currency: "USD" })}
                 </p>
+
                 <p>
                   <strong>Danh Mục:</strong> {selectedProduct.category}
                 </p>

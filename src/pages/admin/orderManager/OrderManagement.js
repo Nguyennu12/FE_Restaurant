@@ -389,7 +389,7 @@ const Order = () => {
                     </p>
                     <p key={`price-${item.orderItemId}`}>
                       <strong>Giá:</strong>{" "}
-                      {item.menuItem.price?.toLocaleString() || "0"} VND
+                      {item.menuItem.price?.toLocaleString() || "0"} USD
                     </p>
                     <p key={`quantity-${item.orderItemId}`}>
                       <strong>Số lượng:</strong> {item.quantity}
@@ -400,7 +400,7 @@ const Order = () => {
 
               <p className="font-bold mt-4">
                 <strong>Tổng tiền đơn hàng:</strong>{" "}
-                {editedOrderDetails.totalAmount?.toLocaleString() || "0"} VND
+                {editedOrderDetails.totalAmount?.toLocaleString() || "0"} USD
               </p>
             </>
           ) : (

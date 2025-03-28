@@ -12,7 +12,8 @@ const ProductCard = ({ product, onView, onDelete }) => {
       />
       <Card.Body>
         <Card.Title>{product.name}</Card.Title>
-        <Card.Text>{product.price.toLocaleString("vi-VN")} VND</Card.Text>
+        <Card.Text>{product.price.toLocaleString("en-US", { style: "currency", currency: "USD" })}</Card.Text>
+
         <div className="d-flex justify-content-center gap-3">
           <button className="btn btn-primary" onClick={() => onView(product)}>
             Xem

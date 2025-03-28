@@ -195,17 +195,17 @@ const PaymentStatus = () => {
       orderData.push([
         item.menuItem?.name || "Không có tên",
         item.quantity || 0,
-        `${item.totalPrice} VND`,
-        `${(item.quantity || 0) * (item.totalPrice || 0)} VND`,
+        `${item.totalPrice} USD`,
+        `${(item.quantity || 0) * (item.totalPrice || 0)} USD`,
       ]);
     });
 
     // Thêm tổng tiền gốc và tổng tiền sau giảm giá vào cuối
     orderData.push(["", ""]); // Dòng trống phân cách trước tổng tiền
-    orderData.push(["Tổng tiền gốc", `${originalTotal.toLocaleString()} VND`]);
+    orderData.push(["Tổng tiền gốc", `${originalTotal.toLocaleString()} USD`]);
     orderData.push([
       "Tổng tiền sau giảm giá",
-      `${discountedTotal.toLocaleString()} VND`,
+      `${discountedTotal.toLocaleString()} USD`,
     ]);
 
     const worksheet = XLSX.utils.aoa_to_sheet(orderData);

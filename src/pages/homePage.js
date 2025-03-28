@@ -47,7 +47,7 @@ const HomePage = () => {
           </div>
           <div>
             <p className="mb-4">
-              Tại <strong>[Tên Nhà Hàng]</strong>, chúng tôi không chỉ phục vụ
+              Tại <strong>Hikari Restaurant</strong>, chúng tôi không chỉ phục vụ
               món ăn mà còn mang đến cho bạn một trải nghiệm ẩm thực tinh tế,
               nơi hội tụ giữa
               <span className="font-semibold"> hương vị truyền thống </span> và
@@ -76,14 +76,15 @@ const HomePage = () => {
               </li>
             </ul>
             <p className="mt-4">
-              Hãy đến với <strong>[Tên Nhà Hàng]</strong> để tận hưởng những món
+              Hãy đến với <strong>Hikari Restaurant</strong> để tận hưởng những món
               ăn tuyệt vời và không gian lý tưởng!
             </p>
             <p className="mt-2">
-              📍 <strong>Địa chỉ:</strong> [Thêm địa chỉ]
+              📍 <strong>Địa chỉ:</strong> 123 Đường Hoa Mai, Quận 1, TP. Hồ Chí Minh
             </p>
             <p>
-              📞 <strong>Hotline:</strong> [Thêm số điện thoại]
+              📞 <strong>Hotline:</strong> 0901 234 567
+
             </p>
           </div>
         </div>
